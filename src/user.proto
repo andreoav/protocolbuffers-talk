@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "github.com/andreoav/protocolbuffers/types/go;userpb";
+
+import "phone.proto";
+import "address.proto";
+import "google/protobuf/timestamp.proto";
+
+message User {
+    string name = 1;
+    string email = 2;
+    int32 age = 3;
+
+    repeated Address addresses = 4;
+    repeated Phone phones = 5;
+
+    bool is_active = 6;
+    google.protobuf.Timestamp created_at = 7;
+}

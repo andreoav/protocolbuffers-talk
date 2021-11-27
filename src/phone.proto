@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "github.com/andreoav/protocolbuffers/types/go;userpb";
+
+message Phone {
+  enum PhoneType {
+    UNKNOWN = 0;
+    MOBILE = 1;
+    HOME = 2;
+    WORK = 3;
+  }
+
+  string number = 1;
+  PhoneType type = 2;
+}

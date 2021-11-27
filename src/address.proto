@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "github.com/andreoav/protocolbuffers/types/go;userpb";
+
+message Address {
+    enum AddressType {
+        UNKNOWN = 0;
+        HOME = 1;
+        DELIVERY = 2;
+        OTHER = 3;
+    }
+
+    string street = 1;
+    string streetNumber = 2;
+    string city = 3;
+    string state = 4;
+    string country = 5;
+    string zip_code = 6;
+    AddressType type = 7;
+}

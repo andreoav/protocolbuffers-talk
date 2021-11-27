@@ -1,0 +1,21 @@
+{
+  "name": "protocolbuffers",
+  "version": "1.0.0",
+  "description": "* Compile: `make compile` * Run: `go run main.go` * Size: `ls -S -lh ./data | awk '{print $5, $9}'`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compare": "ls -S -lh ./data | awk '{print $5, $9}'"
+  },
+  "author": "Andreo Vieira",
+  "license": "MIT",
+  "dependencies": {
+    "google-protobuf": "^3.19.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Andreo Vieira",
+  "email": "contato@andreovieira.com.br",
+  "age": 31,
+  "phones": [
+    {
+      "number": "+5551993554327",
+      "type": "MOBILE"
+    },
+    {
+      "number": "+5551999999999",
+      "type": "WORK"
+    },
+    {
+      "number": "+5551999999999",
+      "type": "HOME"
+    }
+  ],
+  "addresses": [
+    {
+      "type": "DELIVERY",
+      "street": "Address 0001",
+      "streetNumber": "9999",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "country": "Brazil",
+      "zipCode": "99999-999"
+    },
+    {
+      "type": "HOME",
+      "street": "Address 0002",
+      "streetNumber": "9999",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "country": "Brazil",
+      "zipCode": "99999-999"
+    },
+    {
+      "type": "OTHER",
+      "street": "Address 0003",
+      "streetNumber": "9999",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "country": "Brazil",
+      "zipCode": "99999-999"
+    }
+  ],
+  "isActive": true,
+  "createdAt": 1637969226
+}
