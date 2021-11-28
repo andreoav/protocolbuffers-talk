@@ -17,5 +17,11 @@ message User {
     repeated Phone phones = 5;
 
     bool is_active = 6;
-    google.protobuf.Timestamp created_at = 7;
+    google.protobuf.Timestamp created_at = 7; // https://github.com/googleapis/googleapis/tree/master/google/type
+    google.protobuf.Timestamp updated_at = 8;
+
+}
+
+service MyService {
+  rpc Hello(User) returns (User);
 }

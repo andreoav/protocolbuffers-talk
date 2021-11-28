@@ -53,6 +53,7 @@ func main() {
 		},
 		IsActive:  true,
 		CreatedAt: timestamppb.Now(),
+		UpdatedAt: timestamppb.Now(),
 	}
 
 	bytes, err := proto.Marshal(user)
